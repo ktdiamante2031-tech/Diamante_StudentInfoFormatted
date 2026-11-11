@@ -1,0 +1,13 @@
+f_n = input("Please input your first name.:  ")
+l_n = input("Please input your last name.:  ")
+sec = input("Please input your section.:  ")
+f_s = input("Please input your favorite subject.:  ")
+
+fnl = len(f_n + l_n)
+
+print("\nFormatted Output:")
+print(f"Name: {f_n} {l_n}")
+print("Name Code:",f_n.upper(), l_n.upper())
+print("Section:", sec.upper())
+print("Favorite Subject:", f_s)
+print("Character Count:", fnl)
