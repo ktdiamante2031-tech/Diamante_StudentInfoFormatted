@@ -6,7 +6,7 @@ f_s = input()
 fnl = len(f_n + l_n)
 
 print("Formatted Output:")
-print(f"Name: {f_n} {l_n}")
+print("Name:", f_n, l_n)
 print("Name Code:",f_n.upper(), l_n.upper())
 print("Section:", sec.upper())
 print("Favorite Subject:", f_s)
